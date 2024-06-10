@@ -1,0 +1,9 @@
+hidden = [".config", "bun.lockb", ".github"]
+run = "bun run start"
+modules = ["bun-1.1:v1-20240401-269b323"]
+
+[gitHubImport]
+requiredFiles = [".replit", "package.json"]
+
+[nix]
+channel = "stable-23_11"
