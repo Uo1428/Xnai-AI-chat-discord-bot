@@ -1,5 +1,5 @@
 import { env } from '@src/env';
-import { CacheDriver, GoodDB, JSONDriver, MongoDBDriver } from 'good.db';
+import { MemoryDriver, GoodDB, JSONDriver, MongoDBDriver } from 'good.db';
 
 const isJSON = env.DATABASE === 'JSON';
 if (!isJSON && !env.MONGO) throw 'Mongo DB not provided';
@@ -20,7 +20,7 @@ if (!isJSON) db.connect();
 
 export default db;
 
-const cache = new GoodDB(new CacheDriver(), {
+const cache = new GoodDB(new MemoryDriver(), {
 	nested: ':',
 	table: 'Cache',
 	nestedIsEnabled: true,
