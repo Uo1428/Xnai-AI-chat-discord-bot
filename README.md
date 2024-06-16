@@ -55,7 +55,7 @@ bun run format # format code
 ```
 
 ## 💕Credit
-Totally made by [uoaio](https//:patreon.com/uoaio)
+Totally made by [uoaio](https://patreon.com/uoaio)
 
 ### ✨ Discord Profile
 <div align="center">
