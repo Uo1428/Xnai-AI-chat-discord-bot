@@ -40,7 +40,7 @@ const interactionCreateEvent: eventExecute<Events.InteractionCreate> =
 						await db.get(
 							`${keys.AI_Regen}:${interaction.user.id}:${interaction.message.id}`,
 						)
-					)?.value as unknown as [[string, string]];
+					) as unknown as [[string, string]];
 
 					if (!history) {
 						return await interaction.reply({

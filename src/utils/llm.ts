@@ -121,7 +121,7 @@ export const setButtons = (
 export const userConcurreny = (user: GuildMember | User) => {
 	const key = `${keys.AI_User_Concerrncy}:${user.id}`;
 	return {
-		get: async () => (await cache.get(key))?.value || false,
+		get: async () => await cache.get(key) || false,
 		set: (value = true) => cache.set(key, value),
 	};
 };
@@ -132,8 +132,8 @@ export const removeButtons_LastRespose = async (
 ) => {
 	const key = `${keys.AI_Last_Response}:${message.author.id}`;
 	const data = await db.get(key);
-	if (data?.value) {
-		const msg = message.channel.messages.cache.get(data?.value);
+	if (data) {
+		const msg = message.channel.messages.cache.get(data);
 		const regenKey = `${keys.AI_Regen}:${message.author.id}:${msg?.id}`;
 		db.delete(regenKey);
 		msg
