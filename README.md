@@ -37,12 +37,6 @@ To run this project, you need to set the required environment variables.
 Copy `.env.example` into a new file called `.env` and fill in the values.
 ```
 
-Deploy application commands
-
-```bash
-bun run deploy
-```
-
 Start the bot
 
 ```bash
@@ -59,9 +53,13 @@ bun run format # format code
 ## 💕Credit
 Totally made by [uoaio](https://patreon.com/uoaio)
 
+
 ### ✨ Discord Profile
 <div align="center">
   <a width="100%" href="https://discord.uoaio.xyz/"  target="_blank">
     <img align="mid" height="100%" width="100%" style="margin: 0 10px 0 0;" alt=" " src="https://discord.c99.nl/widget/theme-2/922120042651451423.png">
   </a>
 </div>
+
+----
+***Leave a Star 🌟***
