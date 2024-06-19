@@ -6,8 +6,9 @@
 ![XNAI](https://repository-images.githubusercontent.com/813119340/00db247f-c218-4fb9-bc03-90600ac3c063)
 
 <details align=center>
-<summary><h2>Demo</h2></summary>
-i'll add it later
+<summary><h2>Demo & Tutorial</h2></summary>
+  
+[Here you go](https://youtu.be/zt8UR6vB7sQ?si=zJqT2Xp2K76LgS-U)
 </details>
 
 ## 🤖 Setup
