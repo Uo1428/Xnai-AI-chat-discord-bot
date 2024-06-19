@@ -3,6 +3,8 @@
   <p>An advance ai discord chat bot faster than chatgpt-4o build with bun, groq and discordjs<p>
 </div>
 
+![XNAI](https://repository-images.githubusercontent.com/813119340/00db247f-c218-4fb9-bc03-90600ac3c063)
+
 <details align=center>
 <summary><h2>Demo</h2></summary>
 i'll add it later
