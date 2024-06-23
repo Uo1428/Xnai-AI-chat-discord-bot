@@ -1,6 +1,0 @@
-[phases.setup]
-  # uses bun 1.0.18
-  nixpkgsArchive = '0d1ef1a839ce0f3282bf24bea2788b9ad659be83'
- 
-[start]
-  cmd = "bun install && bun run start"
