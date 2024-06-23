@@ -24,10 +24,10 @@
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"noPropertyAccessFromIndexSignature": false,
-		"baseUrl": "./src",
+		"baseUrl": "./",
 		"paths": {
-			"@utils/*": ["utils/*"],
-			"@src/*": ["*"]
+			"@utils/*": ["src/utils/*"],
+			"@src/*": ["src/*"]
 		}
 	}
 }
