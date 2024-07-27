@@ -138,3 +138,5 @@ db.json
 # misc
 .DS_Store
 
+apps
+.turbo
